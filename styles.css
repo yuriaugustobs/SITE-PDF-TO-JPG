@@ -1,0 +1,141 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#backgroundGradient{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.css-selector {
+    background: linear-gradient(221deg, #7c40c1, #b853dd, #1367b9);
+    background-size: 600% 600%;
+
+    -webkit-animation: cor1 24s ease infinite;
+    -moz-animation: cor2 24s ease infinite;
+    animation: cor3 24s ease infinite;
+}
+
+@-webkit-keyframes cor1 {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+}
+@-moz-keyframes cor2 {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+}
+@keyframes cor3 {
+    0%{background-position:84% 0%}
+    50%{background-position:17% 100%}
+    100%{background-position:84% 0%}
+}
+
+#containerForAds{
+    width: 100%;
+    max-width: 728px;
+    height: auto;
+    aspect-ratio: 728/90;
+    border-radius: 20px;
+    backdrop-filter: blur(255,255,255, 0.15);
+    box-shadow: rgba(0,0,0,1);
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed white;
+    margin-bottom: 20px;
+}
+
+#containerForButton{
+    width: 80vw;
+    height: 50vh;
+    border-radius: 20px;
+    backdrop-filter: blur(255,255,255, 0.15);
+    box-shadow: rgba(0,0,0,1);
+    background-color: transparent;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed white;
+}
+
+h1{
+    color:white;
+    font-family: 'Century Gothic', 'Arial', 'Helvetica', sans-serif;
+    padding-bottom: 2rem;
+    font-weight: normal;
+
+
+}
+
+p{
+    color:white;
+    padding-top: 1rem;
+    font-size: 0.9rem;
+    font-family: 'Century Gothic', 'Arial', 'Helvetica', sans-serif;
+}
+
+.button{
+    cursor:pointer;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#buttons{
+    width: auto;
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+}
+
+#buttonSendPDF{
+    width:20rem;
+    height:7rem;
+    display: flex;
+    font-size: 1.5rem;
+    font-family: 'Century Gothic', 'Arial', 'Helvetica', sans-serif;
+    color: #333;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#convert{
+    width:7rem;
+    height:7rem;
+    border-radius: 50%;
+    background-image: url(/assets/okicon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border:none;
+    transition:0.1s;
+}
+
+#convert:active{
+    scale: 1.1;
+    border: 1px solid white;
+    transition: 0.1s;
+}
+
+#inputPDF{
+    display:none;
+}
