@@ -1,9 +1,14 @@
-- cores a serem usadas: roxo "nubank" (aplicar talvez um css de animacao ease de gradiente que mude suave de cor entre roxo 
-    - rosa, e azul escuro)
-    - interface: simples, somente botão para adicionar pdf (incrementar com "arrastar e soltar arquivo")
-    - api usada: pdfRest
-    - funcionalidade - será por baixo dos panos, nao sera dada opcao de personalizacao justamente porque a ideia é ser simples e minimalista.
-    - tecnologias usadas - html, css, javascript, integração com api (ou node.js para backend).
-    - plataforma de deploy - vercel
-    - controle de versionamento por github
-    
+# Conversor de PDF para JPG
+
+Este projeto permite que você converta arquivos PDF em imagens JPG diretamente no seu navegador. Utiliza a API PDFRest para fazer a conversão e exibe as imagens resultantes para download. A interface é simples e intuitiva, permitindo que o usuário selecione um PDF e faça a conversão de forma rápida.
+
+## Tecnologias utilizadas
+
+- HTML
+- CSS
+- JavaScript
+- API PDFRest
+
+## Contribuições
+
+Contribuições são bem-vindas! Sinta-se à vontade para fazer pull requests.
